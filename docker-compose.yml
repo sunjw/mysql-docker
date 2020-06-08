@@ -1,4 +1,4 @@
-version: '1.0'
+version: '3.3'
 
 services:
    db:
@@ -11,3 +11,6 @@ services:
       - "3306:3306"
      environment:
        MYSQL_ROOT_PASSWORD: yT8svmK5
+
+volumes:
+    db_data: {}
